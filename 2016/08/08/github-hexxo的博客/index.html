@@ -86,13 +86,13 @@
 
 <meta name="description" content="本人在搭建本博客，查阅各各教程都不是很全，百度的所有关于github+hexo建站的教程看了遍。深感不便，所以写一个相对比较全都教程,读者在看本教程时有任何问题可以随时留言询问作者。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github+Hexo的博客">
-<meta property="og:url" content="http://yoursite.com/2016/08/08/github-hexxo的博客/index.html">
+<meta property="og:title" content="如何搭建Github+Hexo博客">
+<meta property="og:url" content="https://g0die.github.io/2016/08/08/github-hexxo的博客/index.html">
 <meta property="og:site_name" content="咯咯">
 <meta property="og:description" content="本人在搭建本博客，查阅各各教程都不是很全，百度的所有关于github+hexo建站的教程看了遍。深感不便，所以写一个相对比较全都教程,读者在看本教程时有任何问题可以随时留言询问作者。">
-<meta property="og:updated_time" content="2016-08-11T13:48:37.803Z">
+<meta property="og:updated_time" content="2016-08-11T14:12:01.146Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Github+Hexo的博客">
+<meta name="twitter:title" content="如何搭建Github+Hexo博客">
 <meta name="twitter:description" content="本人在搭建本博客，查阅各各教程都不是很全，百度的所有关于github+hexo建站的教程看了遍。深感不便，所以写一个相对比较全都教程,读者在看本教程时有任何问题可以随时留言询问作者。">
 
 
@@ -114,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/08/08/github-hexxo的博客/"/>
+  <link rel="canonical" href="https://g0die.github.io/2016/08/08/github-hexxo的博客/"/>
 
-  <title> Github+Hexo的博客 | 咯咯 </title>
+  <title> 如何搭建Github+Hexo博客 | 咯咯 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -286,7 +286,7 @@
             
             
               
-                Github+Hexo的博客
+                如何搭建Github+Hexo博客
               
             
           </h1>
@@ -320,7 +320,7 @@
 
           
           &nbsp; | &nbsp;
-          <span id="/2016/08/08/github-hexxo的博客/"class="leancloud_visitors" data-flag-title="Github+Hexo的博客">
+          <span id="/2016/08/08/github-hexxo的博客/"class="leancloud_visitors" data-flag-title="如何搭建Github+Hexo博客">
 		          &nbsp;阅读次数
                   </span>
           
@@ -362,7 +362,7 @@
 <h2 id="查看SSH-key"><a href="#查看SSH-key" class="headerlink" title="查看SSH key"></a>查看SSH key</h2><p>注意以上代码第四行是我们ssh keys的存在文件的地址（该文件为隐藏文件，win10系统需要在“此电脑电脑”-“查看”-“隐藏的项目”勾选上），按照那个地址打开文件，然后全部复制</p>
 <p>例如我复制的密匙是：</p>
 <p><code>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhCf5cHTe0Wi6f2X3DBIiItoMm+Qq1okDRA4JXig4RODhUlt1O+ahiZDDyxn2csHE+BIiuYa71b3ssrvTxs/X3z58i2Mq4RKXZSuCViS3GakHlL/NZBW75xkU6WvokO5WVATALfxhZ9kKBS5V84VPrpxAfsAS4crchZMKFkRe30IGFU4/BGk7HOpSXfxDK/q15Gh2j3z5Qv9nO0d0KyUevQEDL1ebdWa0+solu+CRsaJFDKbhAOAlwUvvFIv9RDf/uwwgQsn27Sp0WwfewiK9gAZW6kkKOYaLSUCEObKZhfNQvIUVJbS0yRAjXEmssnBWKBkqmk5cb4jTB2J9Sp1LJ wyphcz@yeah.net</code></p>
-<h2 id="添加SSH-key"><a href="#添加SSH-key" class="headerlink" title="添加SSH key"></a>添加SSH key</h2><p>访问<a href="https://github.com/" target="_blank" rel="external">Github的官网</a>，注册Github的账号，常规填写name（建议自己特征明显的），e-mail（推荐谷歌邮箱），password。然后点击右上角小图标 →Sstting →SSH and GPG keys →SSH keys →New SSH key。把上述密匙全部粘贴。</p>
+<h2 id="添加SSH-key"><a href="#添加SSH-key" class="headerlink" title="添加SSH key"></a>添加SSH key</h2><p>访问<a href="https://github.com/" target="_blank" rel="external">Github的官网</a>，注册Github的账号，常规填写name（建议自己特征明显的），e-mail（推荐<strong>谷歌邮箱</strong>），password。然后点击右上角小图标 →Sstting →SSH and GPG keys →SSH keys →New SSH key。把上述密匙全部粘贴。</p>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>可以输入下面的命令，看看设置是否成功</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -T git@github.com</div></pre></td></tr></table></figure>
 <p>正常反馈：</p>
@@ -377,7 +377,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name 用户名</div><div class="line">$ git config --global user.email  填写自己的邮箱</div></pre></td></tr></table></figure>
 <p>SSH Key配置成功，本机已成功连接到github.</p>
 <h2 id="验证Github邮箱"><a href="#验证Github邮箱" class="headerlink" title="验证Github邮箱"></a>验证Github邮箱</h2><p>建立Github的仓库之前必须要先验证邮箱，我注册时候用的是qq邮箱，在这一步时总是收不到邮件，解决办法：</p>
-<p>设置 →白名单 →设置邮件地址白名单（添加 support@github.com到白名单）；→设置域名白名单（添加github.com到域名白名单；</p>
+<p>设置 →白名单 →反垃圾 →设置邮件地址白名单（添加 support@github.com到白名单）；→设置域名白名单（添加github.com到域名白名单；</p>
 <h2 id="建立Github仓库"><a href="#建立Github仓库" class="headerlink" title="建立Github仓库"></a>建立Github仓库</h2><p>点击右上角+号 →New repository </p>
 <ul>
 <li>Repository name<strong>一定要与自己的github的用户名相同</strong>，格式为用户用+.github.io</li>
@@ -458,6 +458,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2016/09/01/大一暑假总结/" rel="prev" title="大一暑假总结">
+                大一暑假总结 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -472,9 +476,9 @@
     <div class="post-spread">
       
         <div class="ds-share flat" data-thread-key="2016/08/08/github-hexxo的博客/"
-     data-title="Github+Hexo的博客"
+     data-title="如何搭建Github+Hexo博客"
      data-content=""
-     data-url="http://yoursite.com/2016/08/08/github-hexxo的博客/">
+     data-url="https://g0die.github.io/2016/08/08/github-hexxo的博客/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -502,7 +506,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/08/08/github-hexxo的博客/"
-           data-title="Github+Hexo的博客" data-url="http://yoursite.com/2016/08/08/github-hexxo的博客/">
+           data-title="如何搭建Github+Hexo博客" data-url="https://g0die.github.io/2016/08/08/github-hexxo的博客/">
       </div>
     
   </div>
@@ -547,7 +551,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
